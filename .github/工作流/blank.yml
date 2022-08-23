@@ -1,4 +1,4 @@
-name: 媛媛宝贝每日提醒
+name: yybb
 on:
   workflow_dispatch:
   schedule: 
@@ -23,7 +23,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip3 install -r requirements.txt
-      - name: 媛媛宝贝每日提醒
+      - name: yybb
         run: |
           python3 main.py
 
